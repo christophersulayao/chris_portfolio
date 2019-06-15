@@ -96,7 +96,7 @@
 
 body {
   background: #444;
-  color: white;
+  color: #fff;
   height: 100%;
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -179,3 +179,31 @@ main {
 @media screen and (max-width: 500px) {
   main#home h1.lg-heading {
     margin-top: 10vh; } }
+
+.about-info {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-areas: 'bioimage bio bio' 'job1 job2 job3';
+  grid-template-columns: repeat(3, 1fr); }
+
+.bio-img {
+  grid-area: bioimage;
+  margin: auto;
+  border-radius: 50%;
+  border: 3px solid #eece1a;
+  width: 250px;
+  height: 250px;
+  background-size: cover; }
+
+.bio {
+  grid-area: bio;
+  font-size: 1.5rem; }
+
+.job-1 {
+  grid-area: job1; }
+
+.job-2 {
+  grid-area: job2; }
+
+.job-3 {
+  grid-area: job3; }
