@@ -49,7 +49,8 @@ header {
 
 main {
     padding: 4rem;
-    height: 100%;
+    // height: 100%;
+    min-height: calc(100vh - 60px);
 
     .icons {
         margin-top: 1rem;
@@ -71,8 +72,6 @@ main {
         }
     }
 }
-
-@import 'mobile';
 
 .about-info {
     display: grid;
@@ -109,3 +108,19 @@ main {
 .job-3 {
     grid-area: job3;
 }
+
+.job {
+ background: lighten($primary-color, 5);
+ padding: 0.5 rem;
+ border-bottom: $secondary-color 5px solid;   
+}
+
+#main-footer {
+    text-align: center;
+    padding: 1 rem;
+    background: darken($primary-color, 10);
+    color: set-text-color($primary-color);
+    height: 60 px;
+}
+
+@import 'mobile';
