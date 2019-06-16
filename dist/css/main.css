@@ -184,6 +184,17 @@ main {
   padding: 0.5 rem;
   border-bottom: #eece1a 5px solid; }
 
+.projects {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px; }
+  .projects img {
+    width: 450px;
+    height: 300px;
+    border: 3px #fff solid; }
+    .projects img:hover {
+      border: 3px #eece1a solid; }
+
 #main-footer {
   text-align: center;
   padding: 1 rem;
