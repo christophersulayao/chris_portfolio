@@ -14,6 +14,11 @@ img {
     border: 5px solid goldenrod;
 }
 
+img:hover {
+    border: 10px solid rgb(33, 243, 145);
+    width: 35%;
+}
+
 .info {
     width: 30%;
     color: white;
@@ -22,6 +27,11 @@ img {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+}
+
+span:hover {
+    font-weight: bold;
+    color: red;
 }
 
 .active  {
