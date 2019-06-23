@@ -1,0 +1,35 @@
+body {
+    background: black;
+}
+
+span {
+    color: goldenrod;
+}
+
+img {
+    display: block;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid goldenrod;
+}
+
+.info {
+    width: 30%;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.active  {
+    width: 30%;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
