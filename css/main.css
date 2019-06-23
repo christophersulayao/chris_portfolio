@@ -282,7 +282,7 @@ main {
     height: 25vh;
     transform: translate(100%, 0, 0); }
     .menu-branding .portrait {
-      background: url("../../img/profile.jpg");
+      background: url("../../img/profile.png");
       width: 150px;
       height: 150px; }
   .about-info {
