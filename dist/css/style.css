@@ -20,7 +20,7 @@ img:hover {
 }
 
 .info {
-    width: 30%;
+    width: 50%;
     color: white;
     display: flex;
     flex-wrap: wrap;
@@ -35,7 +35,7 @@ span:hover {
 }
 
 .active  {
-    width: 30%;
+    width: 50%;
     color: white;
     display: flex;
     flex-wrap: wrap;

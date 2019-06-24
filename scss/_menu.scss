@@ -130,6 +130,6 @@
 //delay each nav item slide by 0.1 s
 @for $x from 1 through 4 {
     .nav-item:nth-child(#{$x}) {
-        transition-delay: $x * 0.5s;
+        transition-delay: $x * 0.2s;
     }
 }
