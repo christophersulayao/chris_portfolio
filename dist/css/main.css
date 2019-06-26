@@ -162,12 +162,13 @@ main {
   border-radius: 50%;
   border: 3px solid #eece1a;
   width: 250px;
-  height: 200px;
+  height: 250px;
   background-size: cover; }
 
 .bio {
   grid-area: bio;
-  font-size: 1.5rem; }
+  font-size: 1.5rem;
+  padding: 3rem; }
 
 .job-1 {
   grid-area: job1; }
@@ -180,7 +181,7 @@ main {
 
 .job {
   background: #515151;
-  padding: 0.5 rem;
+  padding: 2rem;
   border-bottom: #eece1a 5px solid; }
 
 .projects {
@@ -189,7 +190,9 @@ main {
   grid-gap: 0.7rem; }
   .projects img {
     width: 100%;
-    border: 3px #fff solid; }
+    height: 50%;
+    border: 3px #fff solid;
+    margin: auto; }
     .projects img:hover {
       border: 3px #eece1a solid;
       opacity: 0.5;
