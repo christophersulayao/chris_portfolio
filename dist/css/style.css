@@ -3,7 +3,7 @@ body {
 }
 
 span {
-    color: goldenrod;
+    color: #eece1a;
 }
 
 img {
@@ -11,7 +11,7 @@ img {
     width: 30%;
     margin-left: auto;
     margin-right: auto;
-    border: 5px solid goldenrod;
+    border: 5px solid #eece1a;
 }
 
 img:hover {
@@ -31,6 +31,7 @@ img:hover {
 
 span:hover {
     font-weight: bold;
+    font-size: 2rem;
     color: red;
 }
 
