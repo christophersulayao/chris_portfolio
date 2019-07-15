@@ -1,56 +1,46 @@
+
 body {
-    background: black;
+    background-color: white;
 }
 
-span {
-    color: #eece1a;
-}
 
-img {
-    display: block;
-    width: 35%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    border: 5px solid #eece1a;
-}
-
-img:hover {
-    border: 10px solid rgb(33, 243, 145);
-    width: 35%;
-}
-
-.info {
-    width: 35%;
-    color: white;
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: auto;
-    margin-right: auto;
+.title {
+    color: #43d73c;
     text-align: center;
-}
-
-span:hover {
     font-weight: bold;
-    font-size: 2rem;
-    color: red;
 }
 
-.active  {
-    width: 35%;
-    color: white;
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: auto;
-    margin-right: auto;
+.selection {
+    width: 50%;
+    padding: 1%;
+    margin-left: 25%;
+    font-size: 1.5rem;    
+}
+
+.selection_title {
+    text-align: center;
+    font-weight: bold;
+}
+
+select:hover {
+    outline-color: #43d73c;
+}
+
+
+//cykick
+
+#chemical > h1 {
     text-align: center;
 }
 
-.target {
-    width: 35%;
+#chemical > img {
+    display: block;
+    width: 50%;
     margin-left: auto;
     margin-right: auto;
-    padding: 2rem;
-    background: black;
+}
+
+.chemical_info > div {
+    text-align: center;
+    margin-top: 1rem;
 }
